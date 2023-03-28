@@ -8,13 +8,13 @@
     height: 100vh;
     text-align: center;
 }
+#title{
+    padding: 15%;
+}
 p{
     color: #FF59C7;
     font-size: xx-large;
-    padding: 15%;
 }
-h3{
-    color: #FF59C7;
 button{
     font-size: xx-large;
     font-weight: bold;
