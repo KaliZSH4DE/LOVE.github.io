@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contenedor{
+    background: #000000;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+p{
+    color: #FF59C7;
+    font-size: xx-large;
+    padding: 15%;
+}
+button{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 16px 32px;
+    background-color: #000000;
+    color: #FF59C7;
+    cursor: pointer;
+    border-color: #FF59C7;
+    position: relative;
+    border-radius: 12px;
+}
+.move1{
+    position: absolute;
+    top: 30px;
+    right: 12px;
+}
+.move2{
+    position: absolute;
+    bottom: 20px;
+    right: 19px;
+}
+.move3{
+    position: absolute;
+    top: 17px;
+    right: 54px;
+}
