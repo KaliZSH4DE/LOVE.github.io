@@ -1,0 +1,61 @@
+*{
+    background-color: #0b1419;
+}
+.msj {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+.boton {
+    display:inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom right, #5B1A1A, #E91B1B);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #0b1419;
+    font-size: 20px;
+    font-weight: bold;
+  }
+.gradi{
+    background: linear-gradient(to right, #5B1A1A, #E91B1B);
+    -webkit-background-clip: text; /* Aplica el degradado al texto */
+    color: transparent; /* Hace el texto transparente para que se vea el degradado */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.cuerpo{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente todo el contenido */
+    align-items: center; /* Centra verticalmente todo el contenido */
+    height: 100vh;
+}
+.all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(pandapollo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 250px;
+}
+.txt{
+    background: linear-gradient(to bottom right, #5B1A1A, #E91B1B);
+    opacity: 0.7;
+    margin: 5vh;
+    border-radius: 25px;
+    width: 80%;
+    text-align: center;
+    padding: 5px;
+}
+h1, p{
+    color: white;
+    background: transparent;
+}
